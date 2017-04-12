@@ -1,0 +1,17 @@
+.content {
+  height: 100%;
+  text-align: center;
+  &__header {
+    font: normal 36px Oswald, sans-serif;
+    padding: 15px 0;
+    color: $color-orange;
+    text-transform: uppercase;
+  }
+  &--img {
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+

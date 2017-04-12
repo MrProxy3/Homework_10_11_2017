@@ -1,0 +1,179 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+html {
+  height: 100%; }
+
+body {
+  width: 100%;
+  height: 100%; }
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
+  padding-bottom: 50px; }
+
+.container {
+  height: 100%;
+  background: #fff; }
+
+* {
+  box-sizing: border-box; }
+
+.form_horizontal {
+  margin-top: 10px; }
+
+.btn {
+  margin-top: 5px;
+  margin-bottom: 10px; }
+
+.header {
+  height: 80px;
+  background: #fff; }
+  .header__logo {
+    height: inherit;
+    position: relative; }
+    .header__logo--img {
+      top: 50%;
+      margin-top: -8%;
+      position: absolute;
+      max-height: 80px;
+      width: 90%; }
+      @media screen and (max-width: 767px) {
+        .header__logo--img {
+          left: 50%;
+          margin-top: -5%;
+          margin-left: -30%;
+          width: 60%;
+          max-height: 70px; } }
+      @media screen and (max-width: 640px) {
+        .header__logo--img {
+          margin-top: -6%; } }
+  .header__menu {
+    text-align: justify;
+    font-size: 0;
+    background: #fff; }
+    .header__menu:after {
+      display: inline-block;
+      content: '';
+      width: 100%;
+      font-size: 0;
+      height: 0; }
+    .header__menu--item {
+      display: inline-block;
+      font: normal 20px Oswald, sans-serif; }
+      @media screen and (max-width: 500px) {
+        .header__menu--item {
+          height: 32px;
+          display: block;
+          text-align: center; } }
+    .header__menu--link {
+      line-height: 80px;
+      color: #db5a00; }
+      .header__menu--link:hover {
+        border-bottom: 5px solid #db5a00;
+        text-decoration: none;
+        color: #dba35a; }
+      .header__menu--link:focus {
+        text-decoration: none;
+        color: #dba35a; }
+      @media screen and (max-width: 500px) {
+        .header__menu--link {
+          line-height: 32px; } }
+
+.content {
+  height: 100%;
+  text-align: center; }
+  .content__header {
+    font: normal 36px Oswald, sans-serif;
+    padding: 15px 0;
+    color: #db5a00;
+    text-transform: uppercase; }
+  .content--img:hover {
+    transform: scale(1.1); }
+
+.sidebar {
+  height: 100%;
+  padding-top: 15px; }
+  .sidebar__menu--item {
+    text-align: center;
+    height: 40px;
+    padding-top: 10px; }
+  .sidebar__menu--link {
+    color: #db5a00;
+    font: normal 16px Oswald, sans-serif; }
+    .sidebar__menu--link:hover {
+      border-bottom: 5px solid #db5a00;
+      text-decoration: none;
+      color: #dba35a; }
+    .sidebar__menu--link:focus {
+      text-decoration: none;
+      color: #dba35a; }
+  @media screen and (max-width: 991px) and (min-width: 500px) {
+    .sidebar__menu {
+      text-align: justify;
+      font-size: 0; }
+      .sidebar__menu:after {
+        display: inline-block;
+        content: '';
+        width: 100%;
+        font-size: 0;
+        height: 0; }
+      .sidebar__menu--item {
+        display: inline-block;
+        font: normal 16px Oswald, sans-serif; } }
+
+.footer {
+  height: 50px;
+  background: #db5a00;
+  color: #fff;
+  text-align: center; }
+  .footer--text {
+    font: normal 16px Oswald, sans-serif;
+    line-height: 50px; }
+
+/*# sourceMappingURL=main.css.map */

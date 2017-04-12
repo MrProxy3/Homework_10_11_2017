@@ -1,0 +1,32 @@
+html {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -$footer_height;
+  padding-bottom: $footer_height;
+}
+
+.container {
+  height: 100%;
+  background: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.form_horizontal {
+  margin-top: 10px;
+}
+
+.btn {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}

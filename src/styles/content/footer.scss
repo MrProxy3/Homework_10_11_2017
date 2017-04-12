@@ -1,0 +1,10 @@
+.footer {
+  height: $footer_height;
+  background: $color-orange;
+  color: #fff;
+  text-align: center;
+  &--text{
+    font: normal 16px Oswald, sans-serif;
+    line-height: $footer_height;
+  }
+}

@@ -1,0 +1,40 @@
+.sidebar {
+  height: 100%;
+  padding-top: 15px;
+  &__menu {
+    &--item {
+      text-align: center;
+      height: 40px;
+      padding-top: 10px;
+    }
+    &--link {
+      color: $color-orange;
+      font: normal 16px Oswald, sans-serif;
+      &:hover {
+        border-bottom: 5px solid $color-orange;
+        text-decoration: none;
+        color: #dba35a;
+      }
+      &:focus {
+        text-decoration: none;
+        color: #dba35a;
+      }
+    }
+    @media screen and (max-width: 991px) and (min-width: 500px) {
+      text-align: justify;
+      font-size: 0;
+      &:after {
+        display: inline-block;
+        content: '';
+        width: 100%;
+        font-size: 0;
+        height: 0;
+      }
+      &--item {
+        display: inline-block;
+        font: normal 16px Oswald, sans-serif;
+      }
+    }
+  }
+}
+
